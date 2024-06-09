@@ -60,7 +60,7 @@ spec:
               kind:
                 - Group
                 - User
-          default: user:guest
+          default: user:user1
         system:
           title: System
           type: string
@@ -201,7 +201,7 @@ spec:
           owner: ${{ parameters.owner }}
           system: ${{ parameters.system }}
           description: ${{ parameters.description }}
-          groupId: io.janus.workflow
+          groupId: rhdh
           artifactId: ${{ parameters.workflowId }}
           version: 1.0.0-SNAPSHOT
           workflowId: ${{ parameters.workflowId }}
