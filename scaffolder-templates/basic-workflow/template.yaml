@@ -18,7 +18,7 @@ metadata:
       title: Workflow Types
       icon: techdocs
 spec:
-  owner: janus-orchestrator
+  owner: rhdh
   type: basic-workflow-bootstrap
   parameters:
     - title: Provide information about the workflow software project
